@@ -8,5 +8,15 @@
   margin-top: 40px;
 }
 .stock {
+  max-width: 300px;
+  max-height: 200px;
   flex: 1 1 50%;
+  margin: 5px;
+  transition: color 1s ease-out;
+
+}
+.stock:hover {
+  background-color: black;
+  color: white;
+  border-radius: 3px;
 }
